@@ -1,7 +1,9 @@
-baseURL = "http://nullmoon.org/"
+baseURL = "https://nullmoon.org/"
 languageCode = "en-us"
 title = "slander"
 theme = "hugo-xmin"
+buildDrafts = true
+enableGitInfo = true
 disableHugoGeneratorInject = true
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
