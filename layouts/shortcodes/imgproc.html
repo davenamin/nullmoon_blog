@@ -1,0 +1,22 @@
+
+{{ $original := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
+{{ $options := .Get 1 }}
+{{ with $options}}
+{{ .Scratch.Set "image" ($original.Resize $options) }}
+{{ else }}
+{{ .Scratch.Set "image" ($original.Resize "400x") }}
+{{ end }}
+{{ $image := .Scratch.Get "image" }}
+<figure>
+	<img src="{{ $image.RelPermalink }}"
+	     width="{{ $image.Width }}"
+	     height="{{ $image.Height }}">
+	<figcaption>
+	<small>
+	{{ with .Inner }}
+	{{ . }}
+	{{ else }}
+	{{ end }}
+	</small>
+	</figcaption>
+</figure>   

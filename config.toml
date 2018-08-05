@@ -1,0 +1,17 @@
+baseURL = "http://nullmoon.org/"
+languageCode = "en-us"
+title = "slander"
+theme = "hugo-xmin"
+disableHugoGeneratorInject = true
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+pygmentsStyle = "lovelace"
+pygmentsOptions = "linenos=table"
+
+[permalinks]
+ posts = "/:slug/"
+
+[imaging]
+ resampleFilter = "box"
+ quality = 75
+ anchor="smart"
