@@ -22,8 +22,8 @@ Teddy Ruxpin? Isn't the Furby a more appropriate toy for our
 generation?") so, here is a log of the journey to the **Churby**.
 
 ## Taking apart a Furby ##
-![](furby.jpg)
-![](disassembled_furby.jpg)
+{{<img assembled_furby />}}
+{{<img disassembled_furby0 />}}
 
 First, you need to get an older Furby. I grabbed two models from the
 90's off of Ebay for about 20 dollars. I looked for ones listed as
@@ -35,8 +35,8 @@ Instructables](http://www.instructables.com/id/Push-Start-a-Comatose-Furby/)
 that's for the model I have. We want to remove the fur in one piece
 since we want to put it back on later.
 
-![](disassembled_furby1-1.jpg)
-![](disassembled_furby2.jpg)
+{{<img disassembled_furby1 />}}
+{{<img disassembled_furby2 />}}
 
 These 'toys' are incredible. There's a speaker and microphone in the
 body, IR diodes and receivers in the forehead, motors to control body,

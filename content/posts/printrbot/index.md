@@ -16,7 +16,7 @@ Fortunately, every once in a while, something from one of the stacks
 gets off the ground. This time the _side project_ is a collaborative
 one.
 
-![Printrbot Assembly](printrbot.jpg)
+{{<img printrbot "printrbot being assembled">}} Printrbot Assembly {{</img>}}
 
 Hello [Printrbot](http://printrbot.com/shop/printrbot-simple/).
 
@@ -26,7 +26,7 @@ Our merry band has a plan to celebrate a successful calibration. A
 grandiose plan, if you will. A foray into the burgeoning world of
 self-backed currency.
 
-![Joe Dollar](joedollar.jpg)
+{{<img joedollar "picture of a joe dollar" />}}
 
 I give you an artistic interpretation of the soon-to-be-minted **Joe
 Dollar**. Stay tuned.

@@ -69,7 +69,7 @@ and I used an old Arduino Duemilanove I had as an [AVR
 programmer](https://www.arduino.cc/en/Tutorial/ArduinoISP) to push
 Arduino Pro Mini sketches to the ATMega328 on the board.
 
-{{<imgproc IMG_20180128_094941033>}}a bike tracker in progress{{</imgproc>}}
+{{<img gps_wires>}}a bike tracker in progress{{</img>}}
 
 Not a great solder job, but trust me, I've come a long way.
 

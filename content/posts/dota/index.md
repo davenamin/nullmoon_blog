@@ -71,12 +71,12 @@ variables ("number of Disabler heroes") and a binary match outcome
 
 Some histograms (created with ggplot2):
 
-![Frequency of Carry heroes split by match outcome. Teams tended to
-consist of 2 or 3 carries, and this composition also tended to
-win.](histo_carry.png)
+{{<img histo_carry "frequency of carry heroes">}} Frequency of Carry
+heroes split by match outcome. Teams tended to consist of 2 or 3
+carries, and this composition also tended to win. {{</img>}}
 
-![Frequency of Support heroes split by match
-outcome.](histo_support.png)
+{{<img histo_support "frequency of support heroes">}}Frequency of
+Support heroes split by match outcome.{{</img>}}
 
 
 I fit a number of logistic models and ended up finding the number of
