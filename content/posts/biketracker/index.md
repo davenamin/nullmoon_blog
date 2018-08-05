@@ -3,6 +3,7 @@ title: "bike tracker adventures"
 date: 2018-02-24T15:25:32-04:00
 slug: gps-adventures
 draft: true
+status: "this project is still underway..."
 ---
 
 ## the motivation ##

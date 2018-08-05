@@ -3,6 +3,7 @@ title: "churby"
 date: 2017-08-13T19:40:24-04:00
 slug: "churby"
 draft: true
+status: "still in progress.. though NextThingCo (makers of CHIP) have closed up shop.."
 ---
 
 Have you heard of [C.H.I.P](https://getchip.com/pages/chip)? or [CHIP
