@@ -5,19 +5,23 @@ slug: "hugo"
 ---
 
 It's time for a change. I really like [Ghost](https://ghost.org/) and
-enjoyed seeing the transition to version 1.0 and beyond. Ghost is a
-product to rival WordPress and other blogging platforms, and this
-isn't a prolific site -- after four years I've ended up with about a
-post a year (and half of my posts have languished as incomplete
-'drafts'!)
+enjoyed seeing the transition to version 1.0 and beyond. It wasn't a
+perfect match though -- Ghost is a product to rival WordPress and
+other blogging platforms, and this isn't a prolific site. My goal has
+been to document some of the _side projects_ I've messed around
+with... though after four years I've ended up with about a post a year
+(and half of my posts have languished as incomplete 'drafts'!)
 
-A couple of my friends (and historically, most of the greater Internet)
-use static sites. [Gabe](http://students.cs.uri.edu/~gdepace/) happily
-authored his student page in a text editor a couple of years ago, and
-it was refreshing to see that I can understand the contents of 'View
-Page Source' just as well as the final rendered product. Paul
-introduced me to [Jekyll](https://jekyllrb.com/) via the [Newport Data
-Project](http://newportdataproject.org/) which uses [GitHub
+A couple of my friends (and historically, most of the greater
+Internet) use static
+sites. [Gabe](http://students.cs.uri.edu/~gdepace/) happily authored
+his student page in a text editor a couple of years ago, and it was
+refreshing to see that I can understand the contents of 'View Page
+Source' just as well as the final rendered product (to be fair, there
+are some pretty cool products like [Glitch](https://glitch.com) which
+are aimed at making modern web tech more accessible!) More recently,
+Paul introduced me to [Jekyll](https://jekyllrb.com/) via the [Newport
+Data Project](http://newportdataproject.org/) which uses [GitHub
 Pages](https://pages.github.com/).
 
 A huge attraction to Ghost was the
@@ -32,11 +36,10 @@ to track changes, and I will eventually switch to writing in
 [pandoc](http://pandoc.org/) in the publishing process.
 
 In the meantime, however, I'm happy to also play around with web tech
-that I think could be useful for future posts. This switch gave me the
-chance to discover and experiment with \\(\KaTeX\\), which is now
-embedded in the site, as well as considering the
-[Vega](http://vega.github.io/) suite of tools for future visualization
-experiments.
+that I think could be useful for future posts. As a part of this
+switch I'm experimenting with \\(\KaTeX\\), which is now embedded in
+the site, as well as considering the [Vega](http://vega.github.io/)
+suite of tools for future visualization experiments.
 
 I'm also going to keep the drafts visible in their unfinished state --
 they represent ongoing projects and should reach completion or
