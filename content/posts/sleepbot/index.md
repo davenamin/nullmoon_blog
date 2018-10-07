@@ -1,11 +1,11 @@
 ---
 title: "a year of sleep"
-date: 2018-08-19T08:44:37-04:00
+date: 2018-10-07T14:44:37-04:00
 slug: "gradsleep"
 ---
 
-<script src="https://cdn.jsdelivr.net/npm/vega@4.2.0/build/vega.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@3.20.0/build/vega-embed.min.js"></script>
+<script src="/vega/vega.min.js"></script>
+<script src="/vega/vega-embed.min.js"></script>
   <!-- Container for the visualization -->
   <div id="vis"></div>
 <script>
@@ -175,7 +175,7 @@ vegaEmbed("#vis", vlSpec,
           {"actions": false, "hover": false});
 </script>
 
-What are we looking at? These are recorded sleep times from 2015 and
+_What are we looking at?_ These are recorded sleep times from 2015 and
 2016, when I was a full-time graduate student. I generally would fall
 asleep within 15 minutes of marking the "sleep time".
 
@@ -183,9 +183,10 @@ Some semester-related events are noted on the graphic. I need to pull
 out the difference between pre- and post- midterm sleep hours as well as
 vacation and school year sleep.
 
-Where the data came from: a couple of years ago I had a [phone with a
-charging dock](https://en.wikipedia.org/wiki/Sony_Xperia_Z1_Compact)
-that could launch apps when docked. I got the idea to run [a sleep
+_Where did the data come from?_ A couple of years ago I had a [phone
+with a charging
+dock](https://en.wikipedia.org/wiki/Sony_Xperia_Z1_Compact) that could
+launch apps when docked. I got the idea to run [a sleep
 tracker](http://mysleepbot.com/) from some colleagues and used it to
 collect the data shown above. I should have more, but lost maybe an
 extra year's worth of data when the SD card (and later, the phone
