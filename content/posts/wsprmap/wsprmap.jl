@@ -7,7 +7,7 @@ using TranscodingStreams, CodecZlib
 function maidenhead_ll(maiden)
     ## https://en.wikipedia.org/wiki/Maidenhead_Locator_System
 
-    ## work in ASCI
+    ## work in ASCII
     ascii_maiden = Base.Unicode.uppercase(ascii(strip(maiden)))
 
     lon = (ascii_maiden[1] - 'A')*20 - 180

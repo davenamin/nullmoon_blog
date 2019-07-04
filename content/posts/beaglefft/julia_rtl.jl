@@ -169,3 +169,8 @@ data = read_data_rtlsdr(tuner, 16384)
 close_rtlsdr(tuner)
 
 transformed = fft(data)
+
+using Makie
+
+## ignore the fft offset
+scene = lines(2:length(transformed), abs.(transformed)[2:end])
