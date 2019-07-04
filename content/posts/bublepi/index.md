@@ -10,15 +10,18 @@ draft: false
 Two weeks ago my friend introduced me to Micro Center. This has been
 both eye-opening and wallet-emptying. I now own several Raspberry Pi
 Zero W computers. I plan to use them reinvigorate the Churby project,
-among other things. As a warm-up, I managed to start **and complete**
+among other things. As a warm-up, I managed to start (and complete!)
 a _side-project_ to put a [Spotify
 Connect](https://www.spotify.com/us/connect/) client in my
-bedroom. Meet _buble_. It still looks like Frankenstein's project, but
-it works well and so far has been rock solid. I might 3D print an
-enclosure for it at some point.
+bedroom. Meet **buble**:
 
 {{<img buble_front>}}a Raspberry Pi Zero W{{</img>}}
 {{<img buble_back>}}a PCM5102 I2S Board{{</img>}}
+
+It still looks like Frankenstein's project, but it works well and so
+far has been rock solid. I might 3D print an enclosure for it at some
+point.
+
 
 This project was still a fair bit outside of my comfort zone. The
 whole thing is enabled by
@@ -281,8 +284,8 @@ depend() {
 ```
 
 I ran `rc-update add librespot default` to enable running the service
-at boot, and `lbu_commit -d` to make sure the initscript and changes
-would persist.
+at boot, then `lbu include /etc/init.d/librespot` and `lbu_commit -d`
+to make sure the initscript and changes would persist.
 
 That's it! Lots of hours but I have a slightly stronger grasp of
 cross-compiling and how to make better use of the Raspberry Pi Zero W
