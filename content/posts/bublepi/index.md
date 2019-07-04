@@ -17,7 +17,8 @@ bedroom. Meet _buble_. It still looks like Frankenstein's project, but
 it works well and so far has been rock solid. I might 3D print an
 enclosure for it at some point.
 
-<< insert buble pictures >>
+{{<img buble_front>}}a Raspberry Pi Zero W{{</img>}}
+{{<img buble_back>}}a PCM5102 I2S Board{{</img>}}
 
 This project was still a fair bit outside of my comfort zone. The
 whole thing is enabled by
@@ -60,7 +61,7 @@ resource.
 Here is a simple schematic of how the two boards are connected. Image
 credit for the Raspberry Pi pinout to https://pinout.xyz.
 
-<< schematic >>
+{{<img buble_schematic>}}a wiring diagram{{</img>}}
 
 The only other thing needed to enable to board is to set the following
 flags in the `config.txt` file, or wherever the Raspberry Pi firmware
