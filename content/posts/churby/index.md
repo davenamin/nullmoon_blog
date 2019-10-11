@@ -6,6 +6,39 @@ draft: true
 status: "still in progress.. though NextThingCo (makers of CHIP) have closed up shop.."
 ---
 
+I'll be honest. This post has been a long while in the making. The
+original story and gift idea, as outlined below, was for my friend's
+30th birthday.
+
+He's now 33.
+
+In any case - there has been some progress. The CHIP Pro and other
+products from the company that produced it, NextThingCo, are no longer
+a viable option for new projects. But my recent discovery of
+MicroCenter has led me to use a Raspberry Pi Zero W instead, with the
+Google AIY Voice Hat. Total cost before tax: $8.
+
+## Installing pico-tts on Alpine ##
+
+Android uses an Apache licensed text-to-speech engine called "picoTTS"
+or "svox". It sounds pretty good and doesn't use up a lot of compute
+or space. It's also very portable - I didn't find it too difficult to get going on Alpine.
+
+Specifically, I used [this repository on
+GitHub](https://github.com/gmorenz/pico-tts), but also replaced
+`test.c` with a slightly modified version of `pico-tts.c` from [this
+forked
+repo](https://github.com/Iiridayn/pico-tts/blob/master/pico-tts.c). I
+did have to change the initialization logic of the `pico_System`
+slightly, however. It could be due to muslc, but in both `test.c` and
+`pico-tts.c`, the call to `pico_initialize` couldn't be nested inside
+the `CHECKED_SYS` macro, otherwise the code would segfault. This was
+my first time using GDB to diagnose and fix a problem!
+
+---
+
+# Original Post #
+
 Have you heard of [C.H.I.P](https://getchip.com/pages/chip)? or [CHIP
 Pro](https://getchip.com/pages/chippro)? It's really amazing how much
 computing power you can get for less than the cost of a beer and a
