@@ -17,3 +17,11 @@ pygmentsOptions = "linenos=table"
  resampleFilter = "box"
  quality = 75
  anchor="smart"
+
+ [markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark.renderer]
+   unsafe = true
+  [markup.highlight]
+   lineNos = true
+   style = "lovelace"

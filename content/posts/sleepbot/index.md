@@ -83,7 +83,6 @@ var vlSpec = {
 	}
     ],
     "marks": [
-
 	{
 	    "type":"rect",
 	    "from": {"data":"sleep"},
@@ -169,7 +168,6 @@ var vlSpec = {
 	},
     ]
 };
-
 // Embed the visualization in the container with id `vis`
 vegaEmbed("#vis", vlSpec,
           {"actions": false, "hover": false});
