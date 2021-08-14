@@ -5,10 +5,6 @@ theme = "hugo-xmin"
 buildDrafts = true
 enableGitInfo = true
 disableHugoGeneratorInject = true
-pygmentsCodeFences = true
-pygmentsCodeFencesGuessSyntax = true
-pygmentsStyle = "lovelace"
-pygmentsOptions = "linenos=table"
 
 [permalinks]
  posts = "/:slug/"

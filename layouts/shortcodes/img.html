@@ -1,9 +1,18 @@
+{{ $name := (.Get 0) }}
 {{ $original := .Page.Resources.GetMatch (printf "%s.*" (.Get 0)) }}
 {{ $alt := (.Get 1) }}
 {{ $small := ($original.Resize (printf "%dx" (int (div $original.Width 4)))) }}
 {{ $mid := ($original.Resize (printf "%dx" (int (div $original.Width 2)))) }}
 {{ $full := ($original) }}
-<figure style="display: inline-block; border: 1px solid; text-align: center;">
+<hr>
+<figure>
+  {{with .Inner}}
+  <label for="mn-figure-{{$name}}" class="margin-toggle">&#8853; figure note</label>
+  <input type="checkbox" id="mn-figure-{{$name}}" class="margin-toggle"/>
+  <span class="marginnote">
+	  {{ . }}
+  </span>
+  {{ end }}
   <img srcset="{{ $small.RelPermalink }} {{$small.Width}}w, 
 {{$mid.RelPermalink }} {{$mid.Width}}w, 
 {{ $full.RelPermalink }} {{$full.Width}}w"
@@ -11,9 +20,4 @@
     src="{{$original.RelPermalink }}"
     alt="{{ with $alt }} {{ . }} {{ end }}"
     style="vertical-align: top;" >
-	<figcaption>
-	<small>
-	{{ with .Inner }} {{ . }} {{ end }}
-	</small>
-	</figcaption>
 </figure>
